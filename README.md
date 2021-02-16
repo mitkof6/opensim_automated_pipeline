@@ -23,12 +23,13 @@ The examples are organized as follows:
   positions, EMG, and ground reaction forces from c3d files, perform scaling,
   inverse kinematics, inverse dynamics, and static optimization using OpenSim.
 - `simple`: does the same thing as the `tutorial` but goes one step further and
-  performs additional analysis such as joint reaction calculations.  `complex`:
-  does the same as `simple`, but the residual reduction algorithm is involved in
-  the pipeline. Sometimes, users prefer not to use this algorithm, so we provide
-  simple and complex variants. In the complex example, we also perform computed
-  muscle controls in OpenSim.
-- `opensim_example**: application of the analysis on the OpenSim gait
+  performs additional analysis such as joint reaction calculations.
+- `complex`: does the same as `simple`, but the residual reduction
+  algorithm is involved in the pipeline. Sometimes, users prefer not
+  to use this algorithm, so we provide simple and complex variants. In
+  the complex example, we also perform computed muscle controls in
+  OpenSim.
+- `opensim_example`: application of the analysis on the OpenSim gait
   examples. In these examples, no c3d files are provided, and we work directly
   with the .trc and .mot files. This is used as a test between the GUI and the
   scripts.
@@ -41,7 +42,7 @@ Geometry folder in `OPENSIM_HOME`.*
 If you find this useful you can cite it as follows:
 
 ```bibtex
-@misc{opensim-template-pipeline,
+@misc{opensim-automated-pipeline,
   author = {Stanev, Dimitar},
   title = {An automated approach to analyze motion capture trials in OpenSim},
   year = {2021},
