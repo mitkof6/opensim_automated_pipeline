@@ -37,9 +37,9 @@ The examples are organized as follows:
 *If you are experiencing issues with visualizing the models, please include the
 Geometry folder in `OPENSIM_HOME`.*
 
-# Cite
+# Acknowledge
 
-If you find this useful you can cite it as follows:
+If you find this useful you can acknowledge it as follows:
 
 ```bibtex
 @misc{opensim-automated-pipeline,
@@ -51,3 +51,8 @@ If you find this useful you can cite it as follows:
   url = {https://github.com/mitkof6/opensim_automated_pipeline}
 }
 ```
+
+No worries, I do not mind not being acknowledged. Most of the things presented
+here are based on things available on SimTK and the user-guide. I hope I will
+have more time to improve and provide additional scripts for performing useful
+manipulations on the data in the future.
