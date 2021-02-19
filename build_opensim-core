@@ -3,10 +3,10 @@
 set -xeuo pipefail
 
 # install dependencies in case they are missing
-# sudo apt-get --yes install git cmake cmake-curses-gui \
-#                            freeglut3-dev libxi-dev libxmu-dev \
-#                            liblapack-dev swig python-dev \
-#                            openjdk-8-jdk
+sudo apt-get --yes install git cmake cmake-curses-gui \
+                           freeglut3-dev libxi-dev libxmu-dev \
+                           liblapack-dev swig python-dev \
+                           openjdk-8-jdk
 
 try_clone_checkout() {
     url="${1}"
